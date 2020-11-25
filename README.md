@@ -5,7 +5,7 @@ A simple .NET 5.0 Hello World written in pure IL
 ﻿.assembly extern System.Runtime {}
 .assembly extern System.Runtime.Extensions {}
 .assembly extern System.Console {}
-.assembly ConsoleApp210 {}
+.assembly HelloIL {}
 
 .class public abstract auto ansi sealed beforefieldinit Program
        extends [System.Runtime]System.Object
@@ -20,4 +20,4 @@ A simple .NET 5.0 Hello World written in pure IL
   }
 }
 ```
-Make sure .NET 5.0 is installed (at least a public preview) [https://dotnet.microsoft.com/download/dotnet/5.0](https://dotnet.microsoft.com/download/dotnet/5.0)
+

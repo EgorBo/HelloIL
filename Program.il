@@ -1,7 +1,7 @@
 ﻿.assembly extern System.Runtime {}
 .assembly extern System.Runtime.Extensions {}
 .assembly extern System.Console {}
-.assembly ConsoleApp210 {}
+.assembly HelloIL {}
 
 .class public abstract auto ansi sealed beforefieldinit Program
        extends [System.Runtime]System.Object

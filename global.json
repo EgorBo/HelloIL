@@ -1,6 +1,5 @@
 {
-    "msbuild-sdks": {
-      "Microsoft.NET.Sdk.IL": "5.0.0-preview.4.20202.18"
-    }
+  "msbuild-sdks": {
+    "Microsoft.NET.Sdk.IL": "5.0.0"
   }
-  
+}
