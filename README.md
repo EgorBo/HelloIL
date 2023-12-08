@@ -1,21 +1,20 @@
 # HelloIL
-A simple .NET 6.0 Hello World written in pure IL
+A simple .NET 8.0 Hello World written in pure IL
 
 ```
-﻿.assembly extern System.Runtime {}
+.assembly extern System.Runtime {}
 .assembly extern System.Runtime.Extensions {}
 .assembly extern System.Console {}
 .assembly HelloIL {}
 
-.class public abstract auto ansi sealed beforefieldinit Program
-       extends [System.Runtime]System.Object
+.class Program
 {
-  .method private hidebysig static void  Main() cil managed
+  .method static void Main()
   {
     .entrypoint
-    .maxstack  8
-    ldstr      "Hello World!"
-    call       void [System.Console]System.Console::WriteLine(string)
+
+    ldstr "Hello World!"
+    call  void [System.Console]System.Console::WriteLine(string)
     ret
   }
 }

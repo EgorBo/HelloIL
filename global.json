@@ -1,5 +1,5 @@
 {
   "msbuild-sdks": {
-    "Microsoft.NET.Sdk.IL": "7.0.0-rc.1.22426.10"
+    "Microsoft.NET.Sdk.IL": "8.0.0-rc.1.23419.4"
   }
 }
